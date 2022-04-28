@@ -1,0 +1,40 @@
+body {
+  background-color: #bfbeb9;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  background-color: #bfbeb9;
+  color: black;
+  border-radius: 5px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #f2f2f2;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 750px;
+}
+.search {
+  background-color: white;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 2px 3px #e7e7e7;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container-weather {
+    display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 40% 40%;
+}
+.info {
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 3px #e7e7e7;
+  border-radius: 10px;
+  padding: 60px;
+  margin-bottom: 50px;
+}
