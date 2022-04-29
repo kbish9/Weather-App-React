@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div class="container">
-      <Weather />
+      <Weather city="London"/>
       <footer>
         Created by Kelsey Bishop and is 
         <a href="https://github.com/kbish9/Weather-App-React" target="_blank" rel="noreferrer">
