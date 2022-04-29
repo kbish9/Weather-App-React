@@ -13,7 +13,7 @@ function getWeather(response) {
         Temp: response.data.main.temp,
         Wind: response.data.wind.speed,
         city: response.data.name,
-        Icon: "to follow",
+        Icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         Description: response.data.weather[0].description,
     });
 }
