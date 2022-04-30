@@ -13,13 +13,13 @@ export default function WeatherInfo(props){
           <h4>
             <FormattedDate date={props.data.date} />
           </h4>
-          <h4>{props.data.Icon}</h4>
+          <h4>{props.data.iconUrl}</h4>
         </div>
         <div className="info">
             <WeatherTemp celsius={props.data.Temp} />
           <h6>Current Temp</h6>
           <h4 className="text-capitalize">{props.data.Description}</h4>
-          <h4>{Math.round(props.data.Wind)}</h4>
+          <h4>Wind: {Math.round(props.data.Wind)}km/h</h4>
         </div>
       </div>
     </div>);

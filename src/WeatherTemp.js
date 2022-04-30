@@ -22,7 +22,6 @@ export default function WeatherTemp(props) {
           °C | <a href="f" onClick={convertF}>°F</a>
         </span>
       </h2>
-      ;
     </div>
   );  
   } else {
@@ -34,7 +33,6 @@ export default function WeatherTemp(props) {
           <a href="f" onClick={convertC}>°C</a> | °F
         </span>
       </h2>
-      ;
     </div> 
        );
   }

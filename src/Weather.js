@@ -13,7 +13,7 @@ function getWeather(response) {
         Temp: response.data.main.temp,
         Wind: response.data.wind.speed,
         city: response.data.name,
-        Icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+        iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         Description: response.data.weather[0].description,
     });
 }
@@ -52,7 +52,7 @@ if(weatherData.ready) {
             </div>
           </div>
         </form>
-        <WeatherInfo data={Weather.data}/>
+        <WeatherInfo data={weatherData}/>
       </div>
     );
 } else {
