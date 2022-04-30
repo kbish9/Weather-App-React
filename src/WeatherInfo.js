@@ -17,7 +17,7 @@ export default function WeatherInfo(props){
         </div>
         <div className="info">
             <WeatherTemp celsius={props.data.Temp} />
-          <h6>Current Temp</h6>
+          <h6 className="text-muted">Current Temp</h6>
           <h4 className="text-capitalize">{props.data.Description}</h4>
           <h4>Wind: {Math.round(props.data.Wind)}km/h</h4>
         </div>
