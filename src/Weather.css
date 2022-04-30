@@ -55,3 +55,42 @@ h4 {
   padding: 60px;
   margin-bottom: 50px;
 }
+ @media (max-width: 768px) {
+.container-weather {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+.info {
+  padding: 10px;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.unit {
+  position: relative;
+  top: -6px;
+  font-weight: 600;
+}
+.btn {
+  max-width: 80px;
+  margin-left: -15px;
+  display: inline;
+}
+.form-control {
+  max-width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+}
+.search {
+  max-width: 90%;
+  margin: 25px auto;
+  padding: 6px;
+}
+h4 {
+  font-size: 18px;
+}
+ }
