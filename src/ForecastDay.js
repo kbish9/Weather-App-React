@@ -4,7 +4,7 @@ import "./Weather.css";
 export default function ForecastDay(props){
     function temp () {
     let temp = Math.round(props.data.temp.day);
-return `${temp}°C`;
+return `${temp}°`;
 }
 
 function day(){
@@ -25,12 +25,12 @@ function day(){
 
 return <div>
 <div className="forecast-day">
-{day()}
+{day()} 
 </div>
 <div className="expected text-muted">
 Expected Temperature
 </div>
 <div className="forecast-temp">
-{temp()} 
+{temp()}<span className="forecast-unit">C</span>
 </div></div>
 }
