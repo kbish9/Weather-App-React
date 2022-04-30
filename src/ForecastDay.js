@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ForecastDay(props){
-function temp () {
+    function temp () {
     let temp = Math.round(props.data.temp.day);
 return `${temp}°C`;
 }
