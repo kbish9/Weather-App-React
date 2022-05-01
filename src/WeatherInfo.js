@@ -13,7 +13,7 @@ export default function WeatherInfo(props){
           <h4>
             <FormattedDate date={props.data.date} />
           </h4>
-          <h4>{props.data.iconUrl}</h4>
+          <h4><img src={props.data.iconUrl} alt={props.data.Description}/></h4>
         </div>
         <div className="info">
             <WeatherTemp celsius={props.data.Temp} />
